@@ -21,7 +21,7 @@ To build a redistributable, production mode package, use `wails build`.
 ## How to Build a Wails app
 
 1. Start by installing the Wails for Linux/Windows/Mac
-2. wails init -n whatsAppAiBot
+2. wails init -n ChatMateAI
 3. wails build
 4. go get go.mau.fi/whatsmeow (install external package for whatsapp)
 5. Add your own openai.go to interact with chatgpt
