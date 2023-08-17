@@ -39,7 +39,8 @@ type response struct {
         TotalTokens      int `json:"total_tokens"`
     } `json:"usage"`
 }
-
+// OpenAI_SendMsg sends a message to the OpenAI chatbot model and returns the response.
+// It uses the specified language for translation.
 func OpenAI_SendMsg(msg, language string) (string){
     apiKey := os.Getenv("OPENAI_API_KEY")
     if apiKey == "" {
@@ -67,6 +68,7 @@ func OpenAI_SendMsg(msg, language string) (string){
     }
     return message.Content
 }
+// getAIResponse sends a request to the OpenAI API and returns the AI response.
 func getAIResponse(apiKey string, client *http.Client, escapedInput string) (*response, error) {
     payload := request{
         Model:       aiModel,
