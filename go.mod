@@ -11,6 +11,7 @@ require (
 )
 
 require (
+// Indirect Dependencies
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/bep/debounce v1.2.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -39,5 +40,5 @@ require (
 	golang.org/x/text v0.9.0 // indirect
 	rsc.io/qr v0.2.0 // indirect
 )
-
+// Replace with a local path
 // replace  github.com/wailsapp/wails/v2 v2.5.0 => /home/yogi/go/pkg/mod
