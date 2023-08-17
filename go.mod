@@ -40,4 +40,4 @@ require (
 	rsc.io/qr v0.2.0 // indirect
 )
 
-// replace github.com/wailsapp/wails/v2 v2.5.0 => /home/yogi/go/pkg/mod
+// replace  github.com/wailsapp/wails/v2 v2.5.0 => /home/yogi/go/pkg/mod
