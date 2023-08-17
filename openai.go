@@ -105,3 +105,4 @@ func getAIResponse(apiKey string, client *http.Client, escapedInput string) (*re
 
     return &responseObj, nil
 }
+
