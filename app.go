@@ -18,7 +18,7 @@ var rcvargs = make([]string, 1)
 var translateTo string
 var runtimectx context.Context
 
-// NewApp creates a new App application struct
+// NewApp creates new App application struct
 func NewApp() *App {
     return &App{}
 }
