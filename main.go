@@ -32,6 +32,12 @@ func main() {
 
 	if err != nil {
 		println("Error:", err.Error())
+
+	// Run the Wails application
+	err = wails.Run(appOptions)
+	if err != nil {
+		println("Error:", err.Error())
+		
 	}
 }
 
